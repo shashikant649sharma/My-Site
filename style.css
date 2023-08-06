@@ -1,0 +1,237 @@
+
+body {
+    color: #000;
+    /* background: linear-gradient(-45deg, #161616, #8d8d8d, #000, rgba(255, 255, 255, 0.986));
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh; */
+}
+
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+        .nav {
+            background-color: black;
+            color: white;
+        }
+
+
+        body {
+           
+            background-color: #F2F2F2;
+            
+        }
+        div .nav{
+            position: relative;
+          background-color: #F2A999;
+        }
+        .nav li a {
+            font-weight :500;
+            font-size: 20px;
+            /* text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(130, 130, 130), 0 0 0.2em rgb(100, 100, 100); */
+            background-color: rgba(0, 0, 0, 0);
+            color: #F2F2F2;
+            
+        }
+        div.Banner {
+        
+        /* background-color: rgb(255, 255, 11); */
+        display: flex;
+        /* border-radius: 50px; */
+        padding: 20px;
+        /* margin: 10px; */
+        height:auto;
+        background-color: #A9D9CB;
+       
+        /* background: linear-gradient(-45deg, #161616, #8d8d8d, #000, rgba(43, 42, 42, 0.986));
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh; */
+       
+        }
+        div.Banner div.image {
+            /* border-radius: inherit; */
+            width: 50%;
+            float: right;
+            /* background-color: aqua; */
+            overflow: hidden;
+            size: 100px;
+
+        }
+        div.Banner div.image img {
+            float: left;
+            /* margin: 5%; */
+            /* border-radius: 50vh; */
+            /* box-shadow:1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(255, 255, 255), 0 0 0.2em rgb(0, 0, 0); ; */
+            width: 75%;
+
+        }
+
+        div.Banner div.Word {
+            /* border-radius: inherit; */
+            width: 50%;
+            float: left;
+            /* background-color: aquamarine; */
+        }
+        div.Banner div.Word h1{
+            color: aliceblue;
+            font-size: 9vw;  
+            /* text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(255, 255, 255), 0 0 0.2em rgb(0, 0, 0);           */
+        }
+        div.about {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: rgb(0, 0, 0);
+            display: flex;
+            border-radius: 50px;
+            padding: 10px;
+            margin: 10px;
+            /* height:80vh; */
+            width: 90vw;        
+	        animation: gradient 4s ease infinite;
+        }
+           
+        /* p.card-text{
+            padding: 5%;
+            font-size: 250%;
+            color: rgb(255, 255, 255);
+        } */
+
+        div.main { 
+            height: auto;
+            
+            /* margin: 0px;x     */
+           
+            display: flex;
+        
+            
+           
+           
+        }
+        div.left{
+            height: auto;
+            width: 50%;
+            background-color: #F2A999;
+
+        }
+        div.right{
+            height: auto;
+            width: 50%;
+            background-color: #F2D091;
+        }
+        div.description p {
+            
+            font-weight: bolder;
+            padding: 20px;
+            color:rgba(252, 252, 252, 0.895);
+            font-size: 2vw;
+
+        }
+         div.bigWord h1 {
+            text-align: right;
+            font-weight: bolder;
+            margin: 1%;
+            padding: 20px;
+            color:rgba(252, 252, 252, 0.895);
+            font-size: 4vw;
+
+        }
+       
+
+            /* //////Main 1 /////// */
+        div.main1 div.right{
+            width: 75%;
+
+        }
+
+        
+        div.main1 div.left{
+            width: 25%;
+
+        }
+
+        
+        /* //////////main 2//////////////// */
+        div.main2 { 
+            background-color:#A9D9CB ;
+            /* background-color: #F2A999; */
+        }
+
+        div.main2 div.right{
+            width: 20%;
+            /* background-color: #A9D9CB; */
+        }
+
+        
+        div.main2 div.left{
+            width: 80%;
+            background-color: #A9D9CB
+        }
+        div.main2 div.description p{
+            font-size: 1.90vw;
+
+        }
+        div.main div.art2 img{
+            width: 20vw;
+            height: auto;
+            background-color: #A9D9CB;
+        }
+
+        /* //////////////main 3///////////// */
+        div.main3 {
+            background-color: #FBDB95;
+        }
+
+        div.main3 div.right{
+            width: 20%;
+          
+
+        }
+
+        
+        div.main3 div.left{
+            width: 80%;
+            background-color: #FBDB95;
+         
+        }
+        div.main3 img{
+            width: 30vw;
+            
+        }
+
+
+
+    /* //////////////////footer/////////////////////////////////// */
+
+    div.footbox{
+   
+        background-color: #F2A999;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        
+        
+        height : auto;
+
+    }
+    div.footbox div.f-text img{
+      width: 15vw;
+      /* height: 5vw; */
+      overflow: hidden;
+    }
+
+    div.footbox div.icon img{
+        background-color: rgb(231, 231, 231);
+        border-radius: 2.5vw;
+        padding: 0.3vw;
+        width: 3.5vw;
+    } 
+
